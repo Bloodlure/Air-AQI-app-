@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Air Quality</title>
+    <link rel="stylesheet" href="aqi.css">
+</head>
+<body style="background-image: url(earth1.png);height: 100vh; background-size: cover;">
+  
+   <!-- <div class="container">
+        <div class="part1">
+
+        </div>
+        <div class="part2">
+
+        </div>
+      <div class="part3">
+        
+      </div>
+
+    </div>-->
+    <section class="viewport">
+        <header class="flex-stack">
+            <span id="citi"></span>
+            <span id="a"></span>
+            <span id="condition">AQI</span>
+          
+        </header>
+      
+        <main>
+          <input type="text" id="city" placeholder="Enter your city name">
+        <button id="search" style="color: aliceblue;">search</button>
+          <article>
+            <h2 id="air-quality">Air quality</h2>
+            <div class="stack">
+              <span>0 - 50 : Good <br>The air is fresh and free from toxins .People are not exposed to any health risks.
+              </span><br><br><br>
+              <span>51 - 100 : Moderate <br>Acceptable air quaity for healty adults but mild threats to sensitive individuals.</span><br><br><br>
+              <span>101 - 200 :Poor <br> Inhaling such air can cause slightly discomfort and difficulty in breathing.</span><br><br><br>
+              <span>201 - 300 :Unhealty <br> This could be typically problematic for children,pregnant women and the elderly . </span>
+            </div>
+          </article>
+          
+      
+          <!--<article>
+            <h2 id="hourly-forecast">Air Pollutants</h2>
+            <ol class="x-scroll" role="list">
+              </li>
+              <li class="forecast-tile">
+                <small class="small-caps">CO</small>
+
+                <div id="co"></div>
+              </li>
+              <li class="forecast-tile">
+                <small class="small-caps">O3</small>
+                <span id="o3-index"></span>
+              </li>
+              <li class="forecast-tile">
+                <small class="small-caps">So2</small>
+                <span id="So2-index"></span>
+              </li>
+              <li class="forecast-tile">
+                <small class="small-caps">MO</small>
+                <span id="MO-index"></span>
+              </li>
+              <li class="forecast-tile">
+                <small class="small-caps">PM10</small>
+                <span id="PM10-index"></span>
+              </li>-->
+
+              <!--<li class="forecast-tile">
+                <small class="small-caps">8pm</small>
+                <span>🌙</span>
+                <span>70°</span>
+              </li>
+              <li class="forecast-tile">
+                <small class="small-caps">9pm</small>
+                <span>🌙</span>
+                <span>68°</span>
+              </li>
+            
+              <li class="forecast-tile">
+                <small class="small-caps">10pm</small>
+                <span>🌙</span>
+                <span>67°</span>
+              </li>
+              <li class="forecast-tile">
+                <small class="small-caps">11pm</small>
+                <span>🌙</span>
+                <span>67°</span>
+              </li>
+            
+              <li class="forecast-tile">
+                <small class="small-caps">12pm</small>
+                <span>🌙</span>
+                <span>66°</span>
+              </li>
+              <li class="forecast-tile">
+                <small class="small-caps">1am</small>
+                <span>🌙</span>
+                <span>65°</span>
+              </li>
+              <li class="forecast-tile">
+                <small class="small-caps">2am</small>
+                <span>🌙</span>
+                <span>64°</span>
+              </li>
+            </ol>
+          -->
+         
+  <script src="service.js"></script>
+</body>
+</html>
